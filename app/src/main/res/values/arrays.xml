@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="religions">
+        <item>None</item>
+        <item>พระพุทธศาสนา</item>
+        <item>神道</item>
+        <item>Christian</item>
+        <item>民間宗教</item>
+    </string-array>
+    <string-array name="religions_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

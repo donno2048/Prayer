@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory app:title="settings">
+        <ListPreference
+            app:key="religion"
+            android:title="Religion"
+            app:summary="Choose your religion once and for all"
+            android:entries="@array/religions"
+            app:entryValues="@array/religions_values"
+            />
+        <SwitchPreferenceCompat
+            app:key="back"
+            android:title="Allow back"
+            app:summary="Enable back button"/>
+        <SwitchPreferenceCompat
+            app:key="Dark"
+            android:title="Dark"
+            app:summary="Switch to dark mode"/>
+    </PreferenceCategory>
+    <PreferenceCategory app:title="voice">
+        <SeekBarPreference
+            app:key="Rate"
+            app:title="Speaking rate"
+            app:summary="Set the speaking rate of the prayer"
+            />
+        <SeekBarPreference
+            app:key="Volume"
+            app:title="Volume"
+            app:summary="Set the volume of the prayer"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
